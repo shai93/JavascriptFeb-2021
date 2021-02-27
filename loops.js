@@ -9,7 +9,7 @@
 // }
 
 
-var sum = 0;
+// var sum = 0;
 // for(var i = 1;i<=10;i++){
 //     if(i == 3 || i ==6){
 //         continue; //skip   
@@ -19,16 +19,16 @@ var sum = 0;
 // }
 
 
-var sum = 0;
-for(var i = 1;i<=10;i++){
-    if(i == 3){
-        break;
-    }else{
-        sum = sum+i
-    }
-}
+// var sum = 0;
+// for(var i = 1;i<=10;i++){
+//     if(i == 3){
+//         break;
+//     }else{
+//         sum = sum+i
+//     }
+// }
 
-console.log(sum)
+// console.log(sum)
 
 
 
@@ -47,3 +47,14 @@ console.log(sum)
 // when i  = 3 and i = 6
 
 
+
+
+
+// 2*1 = 2
+// 2*2 = 4
+
+
+
+for(var i = 1; i<=10;i++){
+    console.log("6 * "+i+" = "+ 6*i)
+}
